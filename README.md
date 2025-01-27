@@ -27,9 +27,9 @@ Country-wise Profit (Custom Map): Utilizes a custom map to visualize profit dist
 Profit by Age Groups: Segments profits into age groups to understand which age demographics contribute the most to profitability.
 <hr>
 <h1>Time Seies Analysis Dashboard</h1>
-<img width="738" alt="Time series Analysis Dashboard" src="https://github.com/user-attachments/assets/e50dae33-7d5b-4a05-ada2-3f65f2a19251" />
+<img width="845" alt="TimeAnalysis" src="https://github.com/user-attachments/assets/337be5ea-f59f-4590-aa9d-ad99939c7c3e" />
 <h1>Details Dashboard</h1>
-<img width="690" alt="Details Dashboard" src="https://github.com/user-attachments/assets/8fd65ef7-c3aa-4966-ad5a-0a9cd86ba3c9" />
+<img width="900" alt="Details Dashboard" src="https://github.com/user-attachments/assets/f544cded-9f71-413a-8195-e159150eed76" />
 <h1>Snowflak schema</h1>
 <img width="888" alt="Snowflak Schame" src="https://github.com/user-attachments/assets/e0a45f43-b52a-425d-a224-0f9181da94f5" />
 
