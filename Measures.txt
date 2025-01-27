@@ -1,0 +1,19 @@
+Add Table To Put Measures inside 
+1)Go to Data Tab
+2)Select GetData
+3)select other sources
+4)select blank Query
+5)Rename To Calculations
+6)Close and apply Load to Model
+==================================================================================================================================================
+# Transaction = COUNTROWS(FactInternetSales)
+Total CoGS = Sum(FactInternetSales[COGS])
+Total Quantity = SUM(FactInternetSales[OrderQuantity])
+TotalProfit = sum(FactInternetSales[Total Profit])
+TotalRevenue = SUM(FactInternetSales[Total Revenue])
+% Profit Margin = DIVIDE('Calculations'[TotalProfit],'Calculations'[TotalRevenue],0)
+All Product = COUNTROWS(DimProduct)
+Sold Product = DISTINCTCOUNT(FactInternetSales[ProductKey])
+UnSold Product = [All Product]-[Sold Product]
+# Customers = COUNTROWS(DimCustomer)
+Avg Customer Age = AVERAGE(DimCustomer[Age])
